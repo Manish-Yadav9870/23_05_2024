@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main_container {
+        display: flex;
+        /* border: 1px solid black; */
+        margin: 50px auto;
+        width: 80%;
+        /* text-align: center; */
+        background-color:rgb(222,222,222)
+        
+       
+      }
+      /* #second_image{
+        display: none;
+      } */
+      #image_container {
+        /* border: 1px solid red; */
+        width: 50%;
+        height: 60vh;
+        margin: auto;
+        padding: 5px;
+       
+      }
+      #image_container img {
+        width: 100%;
+        height: 60vh;
+         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          border-radius: 7px; 
+      }
+      
+      form {
+        /* border: 1px solid rgb(15, 11, 233); */
+        width: 48%;
+        height: 70vh;
+        margin: auto;
+        padding: 5px;
+        background-color:rgb(222,222,222)
+      
+      
+      }
+      h1 {
+        color: rgb(14, 13, 13);
+        margin-right: 30px;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      #name {
+        width: 99%;
+        height: 40px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+      }
+      #mobile {
+        width: 99%;
+        border: none;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        border-radius: 5px;
+      }
+      #email {
+        width: 99%;
+        border: none;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        border-radius: 5px;
+      }
+      #select {
+        width: 99%;
+        border: none;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      #textarea {
+        width: 99%;
+        border: none;
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        border-radius: 5px;
+      }
+      #btn {
+        width: 30%;
+        height: 40px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+      }
+      #btn:hover {
+        cursor: pointer;
+        background-color: rgb(231, 107, 138)
+      }
+      #h1 {
+        /* border: 1px solid black; */
+        text-align: center;
+      }
+      #button {
+        text-align: center;
+      }
+
+      label {
+        font-size: larger;
+      }
+      ::placeholder {
+        color: rgb(133, 123, 123);
+        opacity: 1; /* Firefox */
+      }
+      #child {
+        /* border: 1px solid black; */
+        margin: 50px auto;
+        width: 80%;
+        /* text-align: center; */
+        /* background-color: rgb(175, 113, 89); */
+        text-align: center;
+        color: rgb(15, 15, 15);
+      }
+
+      table {
+        /* border: 1px solid black; */
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid rgb(14, 13, 13);
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      thead{
+        background-color:rgb(222,222,222)
+      }
+      @media screen and (min-width: 200px) and (max-width: 767px) {
+         #main_container {
+          width: 90%;
+          display: block;
+        }
+       
+        #image_container{
+          width: 90%;
+        }
+      form{
+        width: 90%;
+        height: 74vh;
+      }
+      h1{
+        font-size: larger
+      }
+   
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        #main_container {
+          width: 99%;
+          
+        }
+        #image_container{
+          width: 30%;
+          
+        }
+        h1{
+        font-size: larger
+      }
+      form{
+        width: 70%;
+        /* height: 74vh; */
+      }
+      table{
+        width: 70%;
+        margin: auto;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main_container">
+      <!-- <div id="second_image"><img src="https://www.shutterstock.com/image-photo/surprised-expression-on-baby-boys-600nw-81172669.jpg" alt=""></div> -->
+      <div id="image_container">
+        <img
+          src="https://live.staticflickr.com/8101/8553474140_c50cf08708_b.jpg"
+          alt=""
+        />
+      </div>
+      
+        <form id="form">
+          <div id="h1"><h1>Registration Form</h1></div>
+          <div id="center_div">
+            <label for="">Name:</label><input
+              type="text"
+              placeholder="Enter Name"
+              id="name"
+            />
+          </div>
+          <br />
+          <div id="center_div">
+            <label for="">Mobile:</label><br /><input
+              type="text"
+              placeholder="Enter Mobile"
+              id="mobile"
+            />
+          </div>
+          <br />
+          <div id="center_div">
+            <label for="">Email:</label> <br /><input
+              type="text"
+              placeholder="Enter Email"
+              id="email"
+            />
+          </div>
+          <br />
+          <div id="center_div">
+            <label for="">City:</label><br /><select id="select">
+              <option>-----Select-----</option>
+              <option>Alwar</option>
+              <option>Dausa</option>
+              <option>Dudu</option>
+              <option>Kotputli</option>
+            </select>
+          </div>
+          <br />
+          <div id="center_div">
+            <label for="">Address:</label><br /><textarea
+              id="textarea"
+              placeholder="Enter Text Here"
+            ></textarea>
+          </div>
+          <br /><br />
+          <div id="button">
+            <button id="btn"><label for="">Submit</label></button>
+          </div>
+        </form>
+      
+    </div>
+    <div id="child"></div>
+  </body>
+  <script>
+    let arr = JSON.parse(localStorage.getItem("Manish")) || [];
+    let form = document.getElementById("form");
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", getvalue);
+    function getvalue(event) {
+      event.preventDefault();
+      let obj = {
+        name: document.getElementById("name").value,
+        mobile: document.getElementById("mobile").value,
+        email: document.getElementById("email").value,
+        city: document.getElementById("select").value,
+        address: document.getElementById("textarea").value,
+      };
+      arr.push(obj);
+      localStorage.setItem("Manish", JSON.stringify(arr));
+      Displaydata(arr)
+      console.log(arr);
+      form.reset();
+    }
+    main_container.append(form);
+    function Displaydata(data) {
+      child.innerHTML=null
+      let table = document.createElement("table");
+      let thead = document.createElement("thead");
+      let tbody = document.createElement("tbody");
+      let tr = document.createElement("tr");
+      let th = document.createElement("th");
+      th.innerText = "Name";
+      let th1 = document.createElement("th");
+      th1.innerText = "Mobile";
+      let th2 = document.createElement("th");
+      th2.innerText = "Email";
+      let th3 = document.createElement("th");
+      th3.innerText = "City";
+      let th4 = document.createElement("th");
+      th4.innerText = "Address";
+      tr.append(th, th1, th2, th3, th4);
+      thead.append(tr);
+      table.append(thead, tbody);
+
+      data.forEach((ele) => {
+        let child = document.getElementById("child");
+        let tr1 = document.createElement("tr");
+        let td = document.createElement("td");
+        td.innerText = ele.name;
+        let td1 = document.createElement("td");
+        td1.innerText = ele.mobile;
+        let td2 = document.createElement("td");
+        td2.innerText = ele.email;
+        let td3 = document.createElement("td");
+        td3.innerText = ele.city;
+        let td4 = document.createElement("td");
+        td4.innerText = ele.address;
+        tr1.append(td, td1, td2, td3, td4);
+        tbody.append(tr1);
+
+        child.append(table);
+      });
+      //  Displaydata(arr)
+    }
+
+    // Displaydata(arr);
+  </script>
+</html>
